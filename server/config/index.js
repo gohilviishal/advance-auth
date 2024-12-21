@@ -8,6 +8,7 @@ const _config = {
   env: process.env.NODE_ENV,
   jwtSecret: process.env.JWT_SECRET,
   mailtrapToken: process.env.MAILTRAP_TOKEN,
+  clientUrl: process.env.CLIENT_URL
 };
 
 export default Object.freeze(_config);
